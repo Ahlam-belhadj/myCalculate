@@ -11,120 +11,120 @@ touchee.classList.add('touches');
 calculator.appendChild(touchee)
 
 // ALL TOUCHES
-const clear = document.createElement('button');
-clear.classList.add('bouton')
-clear.innerText = 'AC';
-touchee.appendChild(clear);
-clear.setAttribute("data-key", "8");
+const bouton1 = document.createElement('button');
+bouton1.classList.add('bouton')
+bouton1.innerText = 'AC';
+touchee.appendChild(bouton1);
+bouton1.setAttribute("data-key", "8");
 
-const parin = document.createElement('button');
-parin.classList.add('bouton')
-parin.innerText = '(';
-touchee.appendChild(parin);
-parin.setAttribute("data-key", "53");
+const bouton2 = document.createElement('button');
+bouton2.classList.add('bouton')
+bouton2.innerText = '(';
+touchee.appendChild(bouton2);
+bouton2.setAttribute("data-key", "53");
 
-const parout = document.createElement('button');
-parout.classList.add('bouton')
-parout.innerText = ')';
-touchee.appendChild(parout);
-parout.setAttribute("data-key", "219");
+const bouton3 = document.createElement('button');
+bouton3.classList.add('bouton')
+bouton3.innerText = ')';
+touchee.appendChild(bouton3);
+bouton3.setAttribute("data-key", "219");
 
-const diviser = document.createElement('button');
-diviser.classList.add('bouton')
-diviser.innerText = '/';
-touchee.appendChild(diviser);
-diviser.setAttribute("data-key", "111");
+const bouton4 = document.createElement('button');
+bouton4.classList.add('bouton')
+bouton4.innerText = '/';
+touchee.appendChild(bouton4);
+bouton4.setAttribute("data-key", "111");
 
-const sept = document.createElement('button');
-sept.classList.add('bouton')
-sept.innerText = '7';
-touchee.appendChild(sept);
-sept.setAttribute("data-key", "103");
+const bouton5 = document.createElement('button');
+bouton5.classList.add('bouton')
+bouton5.innerText = '7';
+touchee.appendChild(bouton5);
+bouton5.setAttribute("data-key", "103");
 
-const huit = document.createElement('button');
-huit.classList.add('bouton')
-huit.innerText = '8';
-touchee.appendChild(huit);
-huit.setAttribute("data-key", "104");
+const bouton6 = document.createElement('button');
+bouton6.classList.add('bouton')
+bouton6.innerText = '8';
+touchee.appendChild(bouton6);
+bouton6.setAttribute("data-key", "104");
 
-const neuf = document.createElement('button');
-neuf.classList.add('bouton')
-neuf.innerText = '9';
-touchee.appendChild(neuf);
-neuf.setAttribute("data-key", "105");
+const bouton7 = document.createElement('button');
+bouton7.classList.add('bouton')
+bouton7.innerText = '9';
+touchee.appendChild(bouton7);
+bouton7.setAttribute("data-key", "105");
 
-const fois = document.createElement('button');
-fois.classList.add('bouton')
-fois.innerText = '*';
-touchee.appendChild(fois);
-fois.setAttribute("data-key", "106");
+const bouton8 = document.createElement('button');
+bouton8.classList.add('bouton')
+bouton8.innerText = '*';
+touchee.appendChild(bouton8);
+bouton8.setAttribute("data-key", "106");
 
-const quatre = document.createElement('button');
-quatre.classList.add('bouton')
-quatre.innerText = '4';
-touchee.appendChild(quatre);
-quatre.setAttribute("data-key", "100");
+const bouton9 = document.createElement('button');
+bouton9.classList.add('bouton')
+bouton9.innerText = '4';
+touchee.appendChild(bouton9);
+bouton9.setAttribute("data-key", "100");
 
-const cinq = document.createElement('button');
-cinq.classList.add('bouton')
-cinq.innerText = '5';
-touchee.appendChild(cinq);
-cinq.setAttribute("data-key", "101");
+const bouton10 = document.createElement('button');
+bouton10.classList.add('bouton')
+bouton10.innerText = '5';
+touchee.appendChild(bouton10);
+bouton10.setAttribute("data-key", "101");
 
-const six = document.createElement('button');
-six.classList.add('bouton')
-six.innerText = '6';
-touchee.appendChild(six);
-six.setAttribute("data-key", "102");
+const bouton11 = document.createElement('button');
+bouton11.classList.add('bouton')
+bouton11.innerText = '6';
+touchee.appendChild(bouton11);
+bouton11.setAttribute("data-key", "102");
 
-const moins = document.createElement('button');
-moins.classList.add('bouton')
-moins.innerText = '-';
-touchee.appendChild(moins);
-moins.setAttribute("data-key", "109");
+const bouton12 = document.createElement('button');
+bouton12.classList.add('bouton')
+bouton12.innerText = '-';
+touchee.appendChild(bouton12);
+bouton12.setAttribute("data-key", "109");
 
-const un = document.createElement('button');
-un.classList.add('bouton')
-un.innerText = '1';
-touchee.appendChild(un);
-un.setAttribute("data-key", "97");
+const bouton13 = document.createElement('button');
+bouton13.classList.add('bouton')
+bouton13.innerText = '1';
+touchee.appendChild(bouton13);
+bouton13.setAttribute("data-key", "97");
 
-const deux = document.createElement('button');
-deux.classList.add('bouton')
-deux.innerText = '2';
-touchee.appendChild(deux);
-deux.setAttribute("data-key", "98");
+const bouton14 = document.createElement('button');
+bouton14.classList.add('bouton')
+bouton14.innerText = '2';
+touchee.appendChild(bouton14);
+bouton14.setAttribute("data-key", "98");
 
-const trois = document.createElement('button');
-trois.classList.add('bouton')
-trois.innerText = '3';
-touchee.appendChild(trois);
-trois.setAttribute("data-key", "99");
+const bouton15 = document.createElement('button');
+bouton15.classList.add('bouton')
+bouton15.innerText = '3';
+touchee.appendChild(bouton15);
+bouton15.setAttribute("data-key", "99");
 
-const plus = document.createElement('button');
-plus.classList.add('bouton')
-plus.innerText = '+';
-touchee.appendChild(plus);
-plus.setAttribute("data-key", "107");
+const bouton16 = document.createElement('button');
+bouton16.classList.add('bouton')
+bouton16.innerText = '+';
+touchee.appendChild(bouton16);
+bouton16.setAttribute("data-key", "107");
 
-const zero = document.createElement('button');
-zero.classList.add('bouton')
-zero.innerText = '0';
-touchee.appendChild(zero);
-zero.setAttribute("data-key", "96");
+const bouton17 = document.createElement('button');
+bouton17.classList.add('bouton')
+bouton17.innerText = '0';
+touchee.appendChild(bouton17);
+bouton17.setAttribute("data-key", "96");
 
-const point = document.createElement('button');
-point.classList.add('bouton')
-point.innerText = '.';
-touchee.appendChild(point);
-point.setAttribute("data-key", "110");
+const bouton18 = document.createElement('button');
+bouton18.classList.add('bouton')
+bouton18.innerText = '.';
+touchee.appendChild(bouton18);
+bouton18.setAttribute("data-key", "110");
 
 
-const egal = document.createElement('button');
-egal.classList.add('bouton')
-egal.innerText = "=";
-touchee.appendChild(egal);
-egal.setAttribute("data-key", "13");
+const bouton19 = document.createElement('button');
+bouton19.classList.add('bouton')
+bouton19.innerText = "=";
+touchee.appendChild(bouton19);
+bouton19.setAttribute("data-key", "13");
 
 // DOM
 const touches = [...document.querySelectorAll('.bouton')];
